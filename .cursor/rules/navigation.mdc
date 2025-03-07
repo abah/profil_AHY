@@ -1,0 +1,46 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
+
+Berikut adalah penjelasan lengkap mengenai mekanisme navigasi dan transisi antar halaman, yang dirancang agar pengguna seolah-olah menjelajahi kehidupan AHY secara interaktif:
+
+1. **Peta atau Timeline Interaktif:**  
+   - **Konsep:**  
+     Sebuah peta interaktif atau timeline visual ditampilkan sebagai menu utama. Setiap titik atau ikon mewakili babak penting dalam kehidupan AHY, seperti masa kecil, prestasi akademis, karier militer, transisi ke politik, kepemimpinan di Partai Demokrat, pencapaian politik, dan fokus pada pengembangan SDM.  
+   - **Interaksi:**  
+     Pengguna dapat mengklik ikon yang diinginkan untuk langsung berpindah ke halaman tersebut. Saat kursor melayang di atas ikon, akan muncul animasi ringan (misalnya, efek glow atau pergerakan kecil) yang mengonfirmasi interaksi.
+
+2. **Transisi Halaman Dinamis:**  
+   - **Efek Visual Transisi:**  
+     Setiap kali pengguna memilih halaman baru, transisi animasi halus seperti fade-in/fade-out, efek parallax, atau perpindahan dengan pergerakan kamera secara dramatis akan dijalankan.  
+   - **Contoh Transisi:**  
+     Misalnya, ketika berpindah dari halaman "Prestasi Akademis dan Militer" ke halaman "Transisi dari Militer ke Politik," animasi transisi dapat menggambarkan pergeseran garis lintasan yang berubah bentuk, seolah-olah kamera mengikuti perjalanan hidup AHY dari satu babak ke babak berikutnya.
+   - **Interaksi Kamera:**  
+     Selama transisi, kontrol kamera (dengan OrbitControls) ikut diaktifkan, sehingga pengguna melihat pergerakan kamera yang mengelilingi scene 3D dan mendekat ke elemen narasi baru. Ini memberikan kesan bahwa mereka sedang bergerak melalui ruang virtual yang menyimpan kisah AHY.
+
+3. **Navigasi Berbasis Scroll dan Klik:**  
+   - **Scroll untuk Eksplorasi:**  
+     Di samping menu peta atau timeline, pengguna juga dapat menggunakan fitur scroll. Setiap kali halaman discroll, sistem memicu transisi otomatis ke babak selanjutnya. Pergerakan kamera dan animasi latar belakang disesuaikan secara dinamis agar transisi terasa organik.
+   - **Tombol Navigasi:**  
+     Disediakan tombol "Next" dan "Previous" untuk berpindah antar halaman. Tombol-tombol ini dilengkapi dengan efek hover—misalnya, perubahan warna atau pergerakan halus—untuk memberikan umpan balik visual bahwa tombol tersebut aktif dan dapat diklik.
+
+4. **Audio Ambient yang Disinkronkan:**  
+   - **Pengalaman Multisensor:**  
+     Setiap transisi halaman juga didukung oleh audio ambient yang disesuaikan dengan tema babak kehidupan yang baru. Misalnya, transisi menuju babak militer dapat disertai dengan suara latar yang lebih tegas, sedangkan babak kepemimpinan di partai mungkin disertai dengan musik yang lebih optimis.
+   - **Sinkronisasi:**  
+     Audio dipicu bersamaan dengan efek visual transisi sehingga menciptakan pengalaman yang menyeluruh dan meningkatkan imersi pengguna saat mereka menjelajahi setiap bagian cerita.
+
+5. **Feedback Visual dan Animasi Selama Transisi:**  
+   - **Visual Cues:**  
+     Selama transisi, pengguna akan melihat elemen-elemen visual seperti partikel, garis lintasan, atau objek 3D yang secara bertahap berubah atau bergeser sesuai narasi halaman yang baru.  
+   - **Animasi Kamera:**  
+     Kamera bergerak secara terarah, seolah-olah membawa pengguna melalui perjalanan waktu kehidupan AHY. Animasi kamera ini tidak hanya mengubah sudut pandang, tetapi juga memberi efek zoom untuk menyoroti detail narasi atau objek penting dalam scene.
+
+Dengan sistem navigasi seperti ini, setiap perpindahan halaman memberikan pengalaman yang menarik dan imersif, seakan-akan pengguna sedang "berjalan" di dalam kisah kehidupan AHY. Transisi visual, kontrol kamera 3D, dan efek audio yang disinkronkan membuat pengalaman menjelajahi situs ini menjadi interaktif dan menyatu dengan narasi, sehingga pengunjung tidak hanya membaca cerita, tetapi juga merasakannya secara mendalam.

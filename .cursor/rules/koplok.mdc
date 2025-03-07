@@ -1,0 +1,93 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+Berikut adalah deskripsi umum situs web beserta narasi konten tiap halaman dan penjelasan teknis yang mendetail:
+
+---
+
+### Deskripsi Umum Situs Web
+
+Situs web ini merupakan platform digital interaktif yang menggabungkan konten naratif dengan visualisasi 3D dinamis. Situs dibangun dengan HTML, CSS, dan JavaScript modern serta memanfaatkan library Three.js untuk rendering grafis tiga dimensi.  
+- **Struktur Halaman:** Setiap halaman menampilkan satu paragraf narasi yang menceritakan perjalanan hidup dan karier AHY. Setiap halaman dikemas sebagai “layar” tersendiri dengan visualisasi 3D yang mendukung cerita.  
+- **Navigasi:** Pengguna dapat berpindah antar halaman melalui sistem pagination atau scroll, yang memungkinkan transisi halus antar segmen cerita.  
+- **Visualisasi 3D:** Menggunakan Three.js, tiap halaman menampilkan scene khusus dengan objek 3D, animasi, dan efek pencahayaan. Interaksi kamera (misalnya dengan OrbitControls) memungkinkan pengguna memutar, menggeser, dan zoom untuk melihat objek dari berbagai sudut.  
+- **Desain Responsif & Optimasi:** Situs ini didesain responsif agar dapat diakses di berbagai perangkat, dengan optimisasi performa seperti penggunaan Level of Detail (LOD) dan lazy loading pada elemen berat.
+
+---
+
+### Penjelasan Tiap Halaman
+
+---
+
+**Halaman 1 – Latar Inspiratif**  
+*Narasi:*  
+"Di sebuah kota yang penuh semangat, lahirlah seorang pemuda istimewa di Bandung pada 10 Agustus 1978. Agus Harimurti Yudhoyono, yang akrab disapa AHY, tumbuh sebagai putra sulung dari Presiden ke-6 Indonesia, Susilo Bambang Yudhoyono, dan Ani Yudhoyono. Sejak kecil, ia sudah menampakkan bakat kepemimpinan dan semangat mengabdi yang kelak membawanya menapaki perjalanan luar biasa dalam hidupnya."
+
+*Visualisasi & Integrasi Teknis:*  
+- **Visualisasi 3D:** Latar belakang berupa langit senja dengan partikel-partikel bercahaya yang mengambang secara lembut.  
+- **Interaksi:** Pengguna dapat memutar kamera untuk melihat perubahan efek partikel dari berbagai sudut, menambah nuansa inspiratif pada pembukaan cerita.  
+- **Teknis:** Teks narasi ditampilkan dengan HTML/CSS, sedangkan Three.js mengelola scene partikel; OrbitControls mengaktifkan interaksi kamera.
+
+---
+
+**Halaman 2 – Prestasi Akademis dan Militer**  
+*Narasi:*  
+"Masa mudanya diwarnai dengan prestasi akademis gemilang. Lulusan terbaik dari SMA Taruna Nusantara, AHY kemudian melanjutkan pendidikannya di Akademi Militer di Magelang, di mana ia mengantongi penghargaan bergengsi seperti Bintang Adhi Makayasa dan Pedang Trisakti Wiratama. Selama 16 tahun berbakti di TNI Angkatan Darat, ia meniti karier sebagai perwira, menjalankan tugas berisiko di Aceh dan ikut serta dalam misi perdamaian PBB di Lebanon. Pengalaman ini menorehkan nilai kedisiplinan, keberanian, dan integritas yang tak ternilai."
+
+*Visualisasi & Integrasi Teknis:*  
+- **Visualisasi 3D:** Model 3D berupa medali, trofi, atau pedang dengan detail realistis, disinari secara dramatis.  
+- **Interaksi:** Pengguna dapat menggeser dan memutar kamera untuk melihat objek dari segala sisi, menonjolkan pencapaian dan prestasi AHY.  
+- **Teknis:** Objek 3D dioptimalkan agar cepat di-render, dengan layout overlay yang harmonis antara teks dan visual.
+
+---
+
+**Halaman 3 – Transisi dari Militer ke Politik**  
+*Narasi:*  
+"Pada tahun 2016, dengan tekad mengabdi yang sama, AHY memilih mengakhiri pengabdiannya di militer untuk terjun ke dunia politik. Meskipun kontestasinya sebagai calon Gubernur DKI Jakarta pada 2017 tidak membuahkan hasil, kegigihannya menarik perhatian publik dan menjadi inspirasi bagi generasi muda. Ia kemudian mengambil peran strategis sebagai Komandan Kogasma dalam pemenangan Pemilu 2019, yang menegaskan kemampuannya dalam mengorganisir dan menggerakkan massa."
+
+*Visualisasi & Integrasi Teknis:*  
+- **Visualisasi 3D:** Animasi jalur lintasan dinamis yang berubah secara halus dari simbol militer ke simbol politik, misalnya dengan garis yang mengalir dan membentuk ikon demokrasi.  
+- **Interaksi:** Pengguna dapat menginteraksikan animasi dengan memutar kamera untuk mengikuti perjalanan visual yang menggambarkan transisi penting.  
+- **Teknis:** Transisi diatur dengan timeline animasi dan shader khusus, memastikan sinkronisasi antara narasi dan visual.
+
+---
+
+**Halaman 4 – Kepemimpinan di Partai Demokrat**  
+*Narasi:*  
+"Perjalanan politik AHY semakin menanjak ketika, pada 15 Maret 2020, ia terpilih sebagai Ketua Umum Partai Demokrat, menggantikan ayahnya. Kepemimpinannya membawa angin segar dengan berbagai inisiatif, mulai dari gerakan melawan pandemi Covid-19—seperti Gerakan Nasional Partai Demokrat Lawan Corona—hingga mendukung UMKM dan memastikan anak-anak mendapatkan akses internet untuk pembelajaran daring. Ia juga menorehkan prestasi di bidang kepenulisan dengan merampungkan Tetralogi Transformasi AHY pada tahun 2023, yang merangkum visinya untuk Indonesia Emas 2045."
+
+*Visualisasi & Integrasi Teknis:*  
+- **Visualisasi 3D:** Efek visual abstrak berupa alur atau “ribbon” 3D yang bergerak dinamis, melambangkan aliran ide dan inovasi kepemimpinan.  
+- **Interaksi:** Kamera interaktif memungkinkan pengguna mengelilingi dan melihat efek cahaya yang berubah, menonjolkan semangat dan dinamika kepemimpinan.  
+- **Teknis:** Efek dibuat menggunakan shader dan animasi real-time yang disesuaikan dengan layout teks.
+
+---
+
+**Halaman 5 – Pencapaian Politik dan Jabatan Pemerintahan**  
+*Narasi:*  
+"Di tengah dinamika politik menjelang Pemilu 2024, AHY memimpin langsung pemenangan Pemilu Legislatif bagi Partai Demokrat dan turut mengawal kampanye pemenangan Presiden Prabowo-Gibran. Keberhasilan tersebut membuka jalan baginya untuk diangkat sebagai Menteri Agraria dan Tata Ruang—serta Kepala Badan Pertanahan Nasional—pada 21 Februari 2024, dan selanjutnya sebagai Menteri Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan sejak 21 Oktober 2024 di Kabinet Prabowo-Gibran."
+
+*Visualisasi & Integrasi Teknis:*  
+- **Visualisasi 3D:** Peta interaktif atau jaringan koneksi 3D yang menampilkan titik-titik dan garis penghubung antar wilayah, mewakili dukungan nasional dan koneksi politik.  
+- **Interaksi:** Pengguna dapat melakukan zoom, rotasi, dan mengarahkan kursor ke titik-titik untuk melihat detail hubungan dan pencapaian politik.  
+- **Teknis:** Visualisasi menggunakan teknik particle system atau network graph yang dioptimalkan untuk interaksi real-time.
+
+---
+
+**Halaman 6 – Fokus pada Pengembangan SDM dan Visi Masa Depan**  
+*Narasi:*  
+"Di balik segala pencapaian, AHY terus berfokus pada pengembangan sumber daya manusia. Saat ini, ia tengah menempuh pendidikan doktoral di Universitas Airlangga untuk mendalami pembangunan SDM, meyakini bahwa modal utama bangsa terletak pada manusia. Perjalanan hidupnya—dari medan tempur hingga ruang sidang parlemen—menjadi kisah inspiratif tentang keberanian, dedikasi, dan visi untuk masa depan Indonesia yang lebih adil dan sejahtera."
+
+*Visualisasi & Integrasi Teknis:*  
+- **Visualisasi 3D:** Animasi simbolis berupa model abstrak manusia atau tangga yang naik dengan efek cahaya hangat, menggambarkan pertumbuhan dan aspirasi menuju masa depan.  
+- **Interaksi:** Pengguna dapat mengelilingi objek tersebut melalui interaksi kamera, mendapatkan perspektif berbeda yang memberikan inspirasi dan refleksi mendalam.  
+- **Teknis:** Efek pencahayaan dan animasi diatur agar responsif terhadap input pengguna, menciptakan pengalaman visual yang immersive dan futuristik.
+
+---
+
+Secara keseluruhan, situs web ini menyajikan cerita inspiratif tentang perjalanan hidup AHY dengan mengintegrasikan narasi mendalam dan visualisasi 3D interaktif. Setiap halaman dirancang untuk memberikan pengalaman yang imersif—di mana teks dan efek visual saling mendukung untuk menyampaikan pesan tentang keberanian, dedikasi, dan visi masa depan Indonesia. Penggunaan teknologi Three.js dan interaksi kamera membuat pengguna dapat mengeksplorasi setiap detail dengan cara yang dinamis dan menarik.
