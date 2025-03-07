@@ -10,8 +10,8 @@ export class FloatingImages {
         // Map images to specific pages
         this.pageImageMap = {
             0: '/AHY_Dasi_Merah_2024.png',    // Introduction
-            1: '/AHY_Ketum_Jas_PD.png',       // Military Career
-            2: '/ahy_umum.png',               // Transition to Politics
+            1: '/ahy_umum.png',               // Military Career (Updated)
+            2: '/AHY_Ketum_Jas_PD.png',       // Transition to Politics
             3: '/AHY_Ketum_Jas_PD.png',       // Leadership Journey
             4: '/AHY_Dasi_Merah_2024.png',    // Political Achievements
             5: '/ahy_umum.png'                // Future Vision
